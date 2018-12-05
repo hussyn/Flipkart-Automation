@@ -2,24 +2,16 @@
   "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
   "name" : "timeline",
   "children" : [ {
-    "name" : "LAPTOP-7FONJQNR",
-    "children" : [ {
-      "name" : "11508-MainThread",
-      "children" : [ {
-        "name" : "Testing.test_login",
-        "uid" : "9028564e4662468d",
-        "parentUid" : "0e3fc517b710c08cfc0e4a6ddec1ab2b",
-        "status" : "passed",
-        "time" : {
-          "start" : 1543995225008,
-          "stop" : 1543995239002,
-          "duration" : 13994
-        },
-        "flaky" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "0e3fc517b710c08cfc0e4a6ddec1ab2b"
-    } ],
-    "uid" : "af2ac1f31725c4d15c7abeb8eefe48a1"
+    "name" : "test_flipkart",
+    "uid" : "2888428ac5e4910e",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "broken",
+    "time" : {
+      "start" : 1543997966336,
+      "stop" : 1543997966336,
+      "duration" : 0
+    },
+    "flaky" : false,
+    "parameters" : [ ]
   } ]
 }

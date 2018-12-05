@@ -1,4 +1,8 @@
 import pytest
+from POM.Locators import Locators
+from POM.User_Data import User_data
+from selenium.webdriver.common.by import By
+import time
 #from selenium.webdriver import Chrome
 
 @pytest.fixture(scope="class")
@@ -14,3 +18,5 @@ def my_env(request):
         driver.maximize_window()
         yield
         driver.close()
+
+

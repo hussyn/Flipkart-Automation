@@ -2,20 +2,20 @@
   "uid" : "98d3104e051c652961429bf95fa0b5d6",
   "name" : "suites",
   "children" : [ {
-    "name" : "test_flipkart",
+    "name" : "Collection phase",
     "children" : [ {
-      "name" : "Testing.test_login",
-      "uid" : "9028564e4662468d",
-      "parentUid" : "f7bc106b013f71962922de8c6c72473b",
-      "status" : "passed",
+      "name" : "test_flipkart",
+      "uid" : "2888428ac5e4910e",
+      "parentUid" : "66dca8ade5e2ab2d54395614b22c9ead",
+      "status" : "broken",
       "time" : {
-        "start" : 1543995225008,
-        "stop" : 1543995239002,
-        "duration" : 13994
+        "start" : 1543997966336,
+        "stop" : 1543997966336,
+        "duration" : 0
       },
       "flaky" : false,
       "parameters" : [ ]
     } ],
-    "uid" : "f7bc106b013f71962922de8c6c72473b"
+    "uid" : "66dca8ade5e2ab2d54395614b22c9ead"
   } ]
 }

@@ -1,3 +1,6 @@
 [
-  "test_flipkart.py::Testing::()::test_login"
+  "test_flipkart.py::Testing::()::test_login",
+  "test_flipkart.py::Testing::()::test_select_test",
+  "test_flipkart.py::Testing::()::test_sending_product",
+  "test_flipkart.py::Testing::()::test_add_product"
 ]

@@ -2,14 +2,14 @@
   "uid" : "b1a8273437954620fa374b796ffaacdd",
   "name" : "behaviors",
   "children" : [ {
-    "name" : "Testing.test_login",
-    "uid" : "9028564e4662468d",
+    "name" : "test_flipkart",
+    "uid" : "2888428ac5e4910e",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "passed",
+    "status" : "broken",
     "time" : {
-      "start" : 1543995225008,
-      "stop" : 1543995239002,
-      "duration" : 13994
+      "start" : 1543997966336,
+      "stop" : 1543997966336,
+      "duration" : 0
     },
     "flaky" : false,
     "parameters" : [ ]

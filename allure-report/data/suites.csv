@@ -1,2 +1,2 @@
 "Status","Name","Duration in ms","Description"
-"passed","test_flipkart.Testing.test_login","13994",""
+"broken","test_collection_phase.test_flipkart","0","This is the tests collection phase. Failures are modules that failed to collect."

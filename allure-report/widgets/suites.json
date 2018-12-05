@@ -1,13 +1,13 @@
 {
   "total" : 1,
   "items" : [ {
-    "uid" : "f7bc106b013f71962922de8c6c72473b",
-    "name" : "test_flipkart",
+    "uid" : "66dca8ade5e2ab2d54395614b22c9ead",
+    "name" : "Collection phase",
     "statistic" : {
       "failed" : 0,
-      "broken" : 0,
+      "broken" : 1,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 0,
       "unknown" : 0,
       "total" : 1
     }
