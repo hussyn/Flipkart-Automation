@@ -1,0 +1,22 @@
+{
+  "cfc623aa08f989d4e35261b52a9f101c" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "9028564e4662468d",
+      "reportUrl" : "http://localhost:8080/job/AutomationPytest/7/allure/#testresult/9028564e4662468d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1543995225008,
+        "stop" : 1543995239002,
+        "duration" : 13994
+      }
+    } ]
+  }
+}
