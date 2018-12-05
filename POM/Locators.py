@@ -22,8 +22,8 @@ class Locators(object):
     '''
 
     selct = '//span[text()="Electronics"]'
-    productselected = '//a[text()="Vivo"]'
-    subproduct = "//div[@class='_8Vcv_L']"
+    productselected = '//a[text()="Mi"]'
+    subproduct = "//div[@class='_3wU53n']"
     assertofbuynow = '//span[text()="Vivo V5s Perfect Selfie (Crown Gold, 64 GB)"]'
 
     '''
