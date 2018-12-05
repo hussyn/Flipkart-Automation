@@ -36,6 +36,10 @@ class Locators(object):
     '''
     cart = '//span[text()="Cart"]'
     remove_btn = '//span[text()="Remove"]'
+    cart_check = "//span[text()='Check']"
+    cart_size = '//a[text()="L"]'
+    cart_add_to_cart = '//button[text()="ADD TO CART"]'
+
 
     save_cart = '//span[text()="Save For Later"]'
     save_casrt_text = "//div[@class='_1qL_13']"
