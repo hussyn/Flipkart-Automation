@@ -3,37 +3,61 @@
   "name" : "behaviors",
   "children" : [ {
     "name" : "Testing.test_login",
-    "uid" : "1dad4e654a21ccd8",
+    "uid" : "ba9f086aed874a03",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1544072913154,
-      "stop" : 1544072938354,
-      "duration" : 25200
+      "start" : 1544110092563,
+      "stop" : 1544110117295,
+      "duration" : 24732
     },
     "flaky" : false,
     "parameters" : [ ]
   }, {
     "name" : "Testing.test_select_shirt",
-    "uid" : "173d14d263a32bb8",
+    "uid" : "1bc536ea8ece5296",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1544072938358,
-      "stop" : 1544072954932,
-      "duration" : 16574
+      "start" : 1544110117300,
+      "stop" : 1544110133889,
+      "duration" : 16589
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Testing.test_sending_product",
+    "uid" : "468052ab7ffe5b9b",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1544110133894,
+      "stop" : 1544110148576,
+      "duration" : 14682
     },
     "flaky" : false,
     "parameters" : [ ]
   }, {
     "name" : "Testing.test_add_cart",
-    "uid" : "749497cbd3d5a0f1",
+    "uid" : "fff2d2a6451dd35e",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1544072954935,
-      "stop" : 1544073003700,
-      "duration" : 48765
+      "start" : 1544110148579,
+      "stop" : 1544110200145,
+      "duration" : 51566
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Testing.test_add_carts",
+    "uid" : "bef21c174bb3583",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1544110200151,
+      "stop" : 1544110240342,
+      "duration" : 40191
     },
     "flaky" : false,
     "parameters" : [ ]

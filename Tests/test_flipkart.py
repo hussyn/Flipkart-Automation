@@ -89,6 +89,26 @@ class Testing(BaseTest):
             self.driver.find_element(By.XPATH, Locators.cart_size3).click()
         else:
             self.driver.find_element(By.XPATH, Locators.cart_size2).click()
-        time.sleep(6)
+        time.sleep(8)
         self.driver.find_element(By.XPATH, Locators.cart_add_to_cart).click()
         time.sleep(3)
+
+    def test_add_carts(self):
+        self.driver.find_element(By.NAME, Locators.textfield).send_keys(User_data.shirt_arrow)
+        time.sleep(4)
+        self.driver.find_element(By.XPATH, Locators.searchicon).click()
+        time.sleep(4)
+        self.driver.find_element(By.CLASS_NAME, Locators.arrow_click).click()
+        time.sleep(4)
+        window_after = self.driver.window_handles[2]
+        self.driver.switch_to_window(window_after)
+        time.sleep(5)
+        self.driver.find_element(By.ID, Locators.pin_code).send_keys("500081", Keys.ENTER)
+        time.sleep(5)
+        self.driver.find_element(By.XPATH, Locators.add_to_cart).click()
+        time.sleep(4)
+        self.driver.find_element(By.XPATH, Locators.increasing_the_quanity).click()
+        time.sleep(5)
+        self.driver.find_element(By.XPATH, Locators.increasing_the_quanity).click()
+        time.sleep(6)
+        print(self.driver.find_element(By.XPATH, Locators.amount_price).text)

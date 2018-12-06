@@ -1,10 +1,15 @@
 "Status","Name","Duration in ms","Description"
-"passed","test_flipkart.Testing.test_select_shirt","16574","
+"passed","test_flipkart.Testing.test_select_shirt","16589","
         Scenario: Category of selection from Shirts
         :return:
         "
-"passed","test_flipkart.Testing.test_login","25200","
+"passed","test_flipkart.Testing.test_login","24732","
         Login into the application
         :return:
         "
-"passed","test_flipkart.Testing.test_add_cart","48765",""
+"passed","test_flipkart.Testing.test_add_cart","51566",""
+"passed","test_flipkart.Testing.test_sending_product","14682","
+        Scenario: Search a mobile device
+        :return:
+        "
+"passed","test_flipkart.Testing.test_add_carts","40191",""
