@@ -198,76 +198,142 @@
       }
     } ]
   },
+  "4cb6989eba73d016752f893c0dc5567b" : {
+    "statistic" : {
+      "failed" : 5,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 6
+    },
+    "items" : [ {
+      "uid" : "9f0b7993821adbb6",
+      "reportUrl" : "http://localhost:8080/job/AutomationPytest/33/allure/#testresult/9f0b7993821adbb6",
+      "status" : "failed",
+      "statusDetails" : "NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//span[text()=\"Men\"]\"}\n  (Session info: chrome=70.0.3538.110)\n  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64)\n",
+      "time" : {
+        "start" : 1544071992399,
+        "stop" : 1544071992572,
+        "duration" : 173
+      }
+    }, {
+      "uid" : "dcefce4e31f92e13",
+      "reportUrl" : "http://localhost:8080/job/AutomationPytest/32/allure/#testresult/dcefce4e31f92e13",
+      "status" : "failed",
+      "statusDetails" : "NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"id\",\"selector\":\"pincodeInputId\"}\n  (Session info: chrome=70.0.3538.110)\n  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64)\n",
+      "time" : {
+        "start" : 1544071853357,
+        "stop" : 1544071883658,
+        "duration" : 30301
+      }
+    }, {
+      "uid" : "8cf745363d8b6d45",
+      "reportUrl" : "http://localhost:8080/job/AutomationPytest/31/allure/#testresult/8cf745363d8b6d45",
+      "status" : "failed",
+      "statusDetails" : "NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//button[text()=\"ADD TO CART\"]\"}\n  (Session info: chrome=70.0.3538.110)\n  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64)\n",
+      "time" : {
+        "start" : 1544071674001,
+        "stop" : 1544071733307,
+        "duration" : 59306
+      }
+    }, {
+      "uid" : "26975ed5095779a8",
+      "reportUrl" : "http://localhost:8080/job/AutomationPytest/30/allure/#testresult/26975ed5095779a8",
+      "status" : "failed",
+      "statusDetails" : "NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\" (//a[contains(@title,'Tripr Men Colorblocked Casual Black, White Shirt')])[1]\"}\n  (Session info: chrome=70.0.3538.110)\n  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64)\n",
+      "time" : {
+        "start" : 1544071584820,
+        "stop" : 1544071605686,
+        "duration" : 20866
+      }
+    }, {
+      "uid" : "6a93d602baf7f7a0",
+      "reportUrl" : "http://localhost:8080/job/AutomationPytest/29/allure/#testresult/6a93d602baf7f7a0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1544071254197,
+        "stop" : 1544071295875,
+        "duration" : 41678
+      }
+    } ]
+  },
   "cfc623aa08f989d4e35261b52a9f101c" : {
     "statistic" : {
       "failed" : 2,
       "broken" : 2,
       "skipped" : 0,
-      "passed" : 8,
+      "passed" : 14,
       "unknown" : 0,
-      "total" : 12
+      "total" : 18
     },
     "items" : [ {
-      "uid" : "b6bb1ae4b9ab3d73",
-      "reportUrl" : "http://localhost:8080/job/AutomationPytest/21/allure/#testresult/b6bb1ae4b9ab3d73",
+      "uid" : "2580ee9d468407d9",
+      "reportUrl" : "http://localhost:8080/job/AutomationPytest/33/allure/#testresult/2580ee9d468407d9",
       "status" : "passed",
       "time" : {
-        "start" : 1543996932935,
-        "stop" : 1543996947536,
-        "duration" : 14601
+        "start" : 1544071950015,
+        "stop" : 1544071975764,
+        "duration" : 25749
       }
     }, {
-      "uid" : "e88512a2e1605d6d",
-      "reportUrl" : "http://localhost:8080/job/AutomationPytest/20/allure/#testresult/e88512a2e1605d6d",
-      "status" : "failed",
-      "statusDetails" : "NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//input[@class=\"_2zrpKA\"]\"}\n  (Session info: chrome=70.0.3538.110)\n  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64)\n",
+      "uid" : "60f501db73362cf4",
+      "reportUrl" : "http://localhost:8080/job/AutomationPytest/32/allure/#testresult/60f501db73362cf4",
+      "status" : "passed",
       "time" : {
-        "start" : 1543996911839,
-        "stop" : 1543996915822,
-        "duration" : 3983
+        "start" : 1544071788944,
+        "stop" : 1544071836879,
+        "duration" : 47935
       }
     }, {
-      "uid" : "6934f25b0d779c3f",
-      "reportUrl" : "http://localhost:8080/job/AutomationPytest/19/allure/#testresult/6934f25b0d779c3f",
-      "status" : "failed",
-      "statusDetails" : "NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//input[@class=\"_2zrpKA\"]\"}\n  (Session info: chrome=70.0.3538.110)\n  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64)\n",
+      "uid" : "27772833ed57c685",
+      "reportUrl" : "http://localhost:8080/job/AutomationPytest/31/allure/#testresult/27772833ed57c685",
+      "status" : "passed",
       "time" : {
-        "start" : 1543996891273,
-        "stop" : 1543996894991,
-        "duration" : 3718
+        "start" : 1544071631060,
+        "stop" : 1544071657475,
+        "duration" : 26415
       }
     }, {
-      "uid" : "d7e9fb8bf7c84d63",
-      "reportUrl" : "http://localhost:8080/job/AutomationPytest/16/allure/#testresult/d7e9fb8bf7c84d63",
-      "status" : "broken",
-      "statusDetails" : "AttributeError: class not available in session-scoped context",
+      "uid" : "3328bde2e53f1bc6",
+      "reportUrl" : "http://localhost:8080/job/AutomationPytest/30/allure/#testresult/3328bde2e53f1bc6",
+      "status" : "passed",
       "time" : {
-        "start" : 1543996471409,
-        "stop" : 1543996473943,
-        "duration" : 2534
+        "start" : 1544071535310,
+        "stop" : 1544071575224,
+        "duration" : 39914
       }
     }, {
-      "uid" : "8308ddf192e299a8",
-      "reportUrl" : "http://localhost:8080/job/AutomationPytest/15/allure/#testresult/8308ddf192e299a8",
-      "status" : "broken",
-      "statusDetails" : "AttributeError: class not available in session-scoped context",
+      "uid" : "51c42d6e0233db3d",
+      "reportUrl" : "http://localhost:8080/job/AutomationPytest/29/allure/#testresult/51c42d6e0233db3d",
+      "status" : "passed",
       "time" : {
-        "start" : 1543996442700,
-        "stop" : 1543996445284,
-        "duration" : 2584
+        "start" : 1544071209144,
+        "stop" : 1544071237704,
+        "duration" : 28560
       }
     } ]
   },
   "a1c1da73968564529e10c4958e6c9c7b" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 2,
+      "broken" : 3,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 2
+      "total" : 3
     },
     "items" : [ {
+      "uid" : "c47bea6b053507fa",
+      "reportUrl" : "http://localhost:8080/job/AutomationPytest/27/allure/#testresult/c47bea6b053507fa",
+      "status" : "broken",
+      "statusDetails" : "failed",
+      "time" : {
+        "start" : 1544070851701,
+        "stop" : 1544070851701,
+        "duration" : 0
+      }
+    }, {
       "uid" : "2888428ac5e4910e",
       "reportUrl" : "http://localhost:8080/job/AutomationPytest/26/allure/#testresult/2888428ac5e4910e",
       "status" : "broken",
@@ -286,6 +352,63 @@
         "start" : 1543997921071,
         "stop" : 1543997921071,
         "duration" : 0
+      }
+    } ]
+  },
+  "bfaa7f806bf4713108152e5cb357eec" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 5,
+      "unknown" : 0,
+      "total" : 6
+    },
+    "items" : [ {
+      "uid" : "e8fb402253991018",
+      "reportUrl" : "http://localhost:8080/job/AutomationPytest/33/allure/#testresult/e8fb402253991018",
+      "status" : "passed",
+      "time" : {
+        "start" : 1544071975768,
+        "stop" : 1544071992393,
+        "duration" : 16625
+      }
+    }, {
+      "uid" : "48378ad73404d5c",
+      "reportUrl" : "http://localhost:8080/job/AutomationPytest/32/allure/#testresult/48378ad73404d5c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1544071836885,
+        "stop" : 1544071853355,
+        "duration" : 16470
+      }
+    }, {
+      "uid" : "fa9a60c93af16dd3",
+      "reportUrl" : "http://localhost:8080/job/AutomationPytest/31/allure/#testresult/fa9a60c93af16dd3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1544071657479,
+        "stop" : 1544071673998,
+        "duration" : 16519
+      }
+    }, {
+      "uid" : "801d10becda3059b",
+      "reportUrl" : "http://localhost:8080/job/AutomationPytest/30/allure/#testresult/801d10becda3059b",
+      "status" : "failed",
+      "statusDetails" : "NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//h1[text()=\"Shirts\"]\"}\n  (Session info: chrome=70.0.3538.110)\n  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64)\n",
+      "time" : {
+        "start" : 1544071575229,
+        "stop" : 1544071584819,
+        "duration" : 9590
+      }
+    }, {
+      "uid" : "b2554d8c8ce66e8c",
+      "reportUrl" : "http://localhost:8080/job/AutomationPytest/29/allure/#testresult/b2554d8c8ce66e8c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1544071237709,
+        "stop" : 1544071254193,
+        "duration" : 16484
       }
     } ]
   }

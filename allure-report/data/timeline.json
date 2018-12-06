@@ -2,16 +2,48 @@
   "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
   "name" : "timeline",
   "children" : [ {
-    "name" : "test_flipkart",
-    "uid" : "2888428ac5e4910e",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "broken",
-    "time" : {
-      "start" : 1543997966336,
-      "stop" : 1543997966336,
-      "duration" : 0
-    },
-    "flaky" : false,
-    "parameters" : [ ]
+    "name" : "LAPTOP-7FONJQNR",
+    "children" : [ {
+      "name" : "7792-MainThread",
+      "children" : [ {
+        "name" : "Testing.test_add_cart",
+        "uid" : "9f0b7993821adbb6",
+        "parentUid" : "1cb69508babca0668734d3952eb2f526",
+        "status" : "failed",
+        "time" : {
+          "start" : 1544071992399,
+          "stop" : 1544071992572,
+          "duration" : 173
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Testing.test_select_shirt",
+        "uid" : "e8fb402253991018",
+        "parentUid" : "1cb69508babca0668734d3952eb2f526",
+        "status" : "passed",
+        "time" : {
+          "start" : 1544071975768,
+          "stop" : 1544071992393,
+          "duration" : 16625
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Testing.test_login",
+        "uid" : "2580ee9d468407d9",
+        "parentUid" : "1cb69508babca0668734d3952eb2f526",
+        "status" : "passed",
+        "time" : {
+          "start" : 1544071950015,
+          "stop" : 1544071975764,
+          "duration" : 25749
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "1cb69508babca0668734d3952eb2f526"
+    } ],
+    "uid" : "af2ac1f31725c4d15c7abeb8eefe48a1"
   } ]
 }

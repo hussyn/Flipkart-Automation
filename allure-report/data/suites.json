@@ -2,20 +2,44 @@
   "uid" : "98d3104e051c652961429bf95fa0b5d6",
   "name" : "suites",
   "children" : [ {
-    "name" : "Collection phase",
+    "name" : "test_flipkart",
     "children" : [ {
-      "name" : "test_flipkart",
-      "uid" : "2888428ac5e4910e",
-      "parentUid" : "66dca8ade5e2ab2d54395614b22c9ead",
-      "status" : "broken",
+      "name" : "Testing.test_login",
+      "uid" : "2580ee9d468407d9",
+      "parentUid" : "f7bc106b013f71962922de8c6c72473b",
+      "status" : "passed",
       "time" : {
-        "start" : 1543997966336,
-        "stop" : 1543997966336,
-        "duration" : 0
+        "start" : 1544071950015,
+        "stop" : 1544071975764,
+        "duration" : 25749
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Testing.test_select_shirt",
+      "uid" : "e8fb402253991018",
+      "parentUid" : "f7bc106b013f71962922de8c6c72473b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1544071975768,
+        "stop" : 1544071992393,
+        "duration" : 16625
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Testing.test_add_cart",
+      "uid" : "9f0b7993821adbb6",
+      "parentUid" : "f7bc106b013f71962922de8c6c72473b",
+      "status" : "failed",
+      "time" : {
+        "start" : 1544071992399,
+        "stop" : 1544071992572,
+        "duration" : 173
       },
       "flaky" : false,
       "parameters" : [ ]
     } ],
-    "uid" : "66dca8ade5e2ab2d54395614b22c9ead"
+    "uid" : "f7bc106b013f71962922de8c6c72473b"
   } ]
 }

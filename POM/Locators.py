@@ -38,13 +38,18 @@ class Locators(object):
     remove_btn = '//span[text()="Remove"]'
     cart_check = "//span[text()='Check']"
     cart_size = '//a[text()="L"]'
+    cart_size1 = '//a[text()="M"]'
+    cart_size2 = '//a[text()="S"]'
+    cart_size3 = '//a[text()="XL"]'
+    cart_size4 = '//a[text()="S"]'
     cart_add_to_cart = '//button[text()="ADD TO CART"]'
+    cart_elements = "//a[@class='_1TJldG _2I_hq9']"
 
 
     save_cart = '//span[text()="Save For Later"]'
     save_casrt_text = "//div[@class='_1qL_13']"
 
-    selection_shirt = " (//a[contains(@title,'Flying Machine Men Checkered Casual Multicolor Shirt')])[1]"
+    selection_shirt = " (//a[contains(@title,'Tripr Men Colorblocked Casual Black, White Shirt')])[1]"
     wish_list = '_35Y7Yo'
 
     name_cou = "//div[text()='KRISHNA KAMASKHI']"

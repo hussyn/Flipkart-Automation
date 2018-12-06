@@ -1,2 +1,10 @@
 "Status","Name","Duration in ms","Description"
-"broken","test_collection_phase.test_flipkart","0","This is the tests collection phase. Failures are modules that failed to collect."
+"failed","test_flipkart.Testing.test_add_cart","173",""
+"passed","test_flipkart.Testing.test_select_shirt","16625","
+        Scenario: Category of selection from Shirts
+        :return:
+        "
+"passed","test_flipkart.Testing.test_login","25749","
+        Login into the application
+        :return:
+        "

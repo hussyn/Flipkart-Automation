@@ -1,11 +1,31 @@
 [ {
-  "uid" : "2888428ac5e4910e",
-  "name" : "test_flipkart",
+  "uid" : "9f0b7993821adbb6",
+  "name" : "Testing.test_add_cart",
   "time" : {
-    "start" : 1543997966336,
-    "stop" : 1543997966336,
-    "duration" : 0
+    "start" : 1544071992399,
+    "stop" : 1544071992572,
+    "duration" : 173
   },
-  "status" : "broken",
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "2580ee9d468407d9",
+  "name" : "Testing.test_login",
+  "time" : {
+    "start" : 1544071950015,
+    "stop" : 1544071975764,
+    "duration" : 25749
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e8fb402253991018",
+  "name" : "Testing.test_select_shirt",
+  "time" : {
+    "start" : 1544071975768,
+    "stop" : 1544071992393,
+    "duration" : 16625
+  },
+  "status" : "passed",
   "severity" : "normal"
 } ]
