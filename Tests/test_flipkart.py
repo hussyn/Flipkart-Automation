@@ -81,8 +81,10 @@ class Testing(BaseTest):
         cart_sizes = self.driver.find_element(By.XPATH, Locators.cart_elements).text
         if cart_sizes == 'S':
             self.driver.find_element(By.XPATH, Locators.cart_size4).click()
+            time.sleep(4)
         elif cart_sizes == 'M':
             self.driver.find_element(By.XPATH, Locators.cart_size1).click()
+            time.sleep(4)
         elif cart_sizes == 'XL':
             self.driver.find_element(By.XPATH, Locators.cart_size3).click()
         else:

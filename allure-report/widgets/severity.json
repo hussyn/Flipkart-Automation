@@ -1,30 +1,30 @@
 [ {
-  "uid" : "9f0b7993821adbb6",
+  "uid" : "749497cbd3d5a0f1",
   "name" : "Testing.test_add_cart",
   "time" : {
-    "start" : 1544071992399,
-    "stop" : 1544071992572,
-    "duration" : 173
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "2580ee9d468407d9",
-  "name" : "Testing.test_login",
-  "time" : {
-    "start" : 1544071950015,
-    "stop" : 1544071975764,
-    "duration" : 25749
+    "start" : 1544072954935,
+    "stop" : 1544073003700,
+    "duration" : 48765
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "e8fb402253991018",
+  "uid" : "173d14d263a32bb8",
   "name" : "Testing.test_select_shirt",
   "time" : {
-    "start" : 1544071975768,
-    "stop" : 1544071992393,
-    "duration" : 16625
+    "start" : 1544072938358,
+    "stop" : 1544072954932,
+    "duration" : 16574
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1dad4e654a21ccd8",
+  "name" : "Testing.test_login",
+  "time" : {
+    "start" : 1544072913154,
+    "stop" : 1544072938354,
+    "duration" : 25200
   },
   "status" : "passed",
   "severity" : "normal"

@@ -4,45 +4,45 @@
   "children" : [ {
     "name" : "LAPTOP-7FONJQNR",
     "children" : [ {
-      "name" : "7792-MainThread",
+      "name" : "9520-MainThread",
       "children" : [ {
-        "name" : "Testing.test_add_cart",
-        "uid" : "9f0b7993821adbb6",
-        "parentUid" : "1cb69508babca0668734d3952eb2f526",
-        "status" : "failed",
-        "time" : {
-          "start" : 1544071992399,
-          "stop" : 1544071992572,
-          "duration" : 173
-        },
-        "flaky" : false,
-        "parameters" : [ ]
-      }, {
         "name" : "Testing.test_select_shirt",
-        "uid" : "e8fb402253991018",
-        "parentUid" : "1cb69508babca0668734d3952eb2f526",
+        "uid" : "173d14d263a32bb8",
+        "parentUid" : "194715afc3ce6e843159b31e8326e2d2",
         "status" : "passed",
         "time" : {
-          "start" : 1544071975768,
-          "stop" : 1544071992393,
-          "duration" : 16625
+          "start" : 1544072938358,
+          "stop" : 1544072954932,
+          "duration" : 16574
         },
         "flaky" : false,
         "parameters" : [ ]
       }, {
         "name" : "Testing.test_login",
-        "uid" : "2580ee9d468407d9",
-        "parentUid" : "1cb69508babca0668734d3952eb2f526",
+        "uid" : "1dad4e654a21ccd8",
+        "parentUid" : "194715afc3ce6e843159b31e8326e2d2",
         "status" : "passed",
         "time" : {
-          "start" : 1544071950015,
-          "stop" : 1544071975764,
-          "duration" : 25749
+          "start" : 1544072913154,
+          "stop" : 1544072938354,
+          "duration" : 25200
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Testing.test_add_cart",
+        "uid" : "749497cbd3d5a0f1",
+        "parentUid" : "194715afc3ce6e843159b31e8326e2d2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1544072954935,
+          "stop" : 1544073003700,
+          "duration" : 48765
         },
         "flaky" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "1cb69508babca0668734d3952eb2f526"
+      "uid" : "194715afc3ce6e843159b31e8326e2d2"
     } ],
     "uid" : "af2ac1f31725c4d15c7abeb8eefe48a1"
   } ]

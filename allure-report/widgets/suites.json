@@ -4,10 +4,10 @@
     "uid" : "f7bc106b013f71962922de8c6c72473b",
     "name" : "test_flipkart",
     "statistic" : {
-      "failed" : 1,
+      "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 2,
+      "passed" : 3,
       "unknown" : 0,
       "total" : 3
     }

@@ -1,4 +1,44 @@
 [ {
+  "buildOrder" : 38,
+  "reportUrl" : "http://localhost:8080/job/AutomationPytest/38/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "run" : 3,
+    "retry" : 0
+  }
+}, {
+  "buildOrder" : 37,
+  "reportUrl" : "http://localhost:8080/job/AutomationPytest/37/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "run" : 3,
+    "retry" : 0
+  }
+}, {
+  "buildOrder" : 36,
+  "reportUrl" : "http://localhost:8080/job/AutomationPytest/36/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "run" : 0,
+    "retry" : 0
+  }
+}, {
+  "buildOrder" : 35,
+  "reportUrl" : "http://localhost:8080/job/AutomationPytest/35/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "run" : 3,
+    "retry" : 0
+  }
+}, {
+  "buildOrder" : 34,
+  "reportUrl" : "http://localhost:8080/job/AutomationPytest/34/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "run" : 3,
+    "retry" : 0
+  }
+}, {
   "buildOrder" : 33,
   "reportUrl" : "http://localhost:8080/job/AutomationPytest/33/allure",
   "reportName" : "AllureReport",
@@ -113,46 +153,6 @@
 }, {
   "buildOrder" : 19,
   "reportUrl" : "http://localhost:8080/job/AutomationPytest/19/allure",
-  "reportName" : "AllureReport",
-  "data" : {
-    "run" : 2,
-    "retry" : 0
-  }
-}, {
-  "buildOrder" : 18,
-  "reportUrl" : "http://localhost:8080/job/AutomationPytest/18/allure",
-  "reportName" : "AllureReport",
-  "data" : {
-    "run" : 2,
-    "retry" : 0
-  }
-}, {
-  "buildOrder" : 17,
-  "reportUrl" : "http://localhost:8080/job/AutomationPytest/17/allure",
-  "reportName" : "AllureReport",
-  "data" : {
-    "run" : 2,
-    "retry" : 0
-  }
-}, {
-  "buildOrder" : 16,
-  "reportUrl" : "http://localhost:8080/job/AutomationPytest/16/allure",
-  "reportName" : "AllureReport",
-  "data" : {
-    "run" : 2,
-    "retry" : 0
-  }
-}, {
-  "buildOrder" : 15,
-  "reportUrl" : "http://localhost:8080/job/AutomationPytest/15/allure",
-  "reportName" : "AllureReport",
-  "data" : {
-    "run" : 2,
-    "retry" : 0
-  }
-}, {
-  "buildOrder" : 14,
-  "reportUrl" : "http://localhost:8080/job/AutomationPytest/14/allure",
   "reportName" : "AllureReport",
   "data" : {
     "run" : 2,
