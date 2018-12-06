@@ -18,10 +18,8 @@ import conftest
 
 @pytest.mark.usefixtures("my_env")
 
-
 class BaseTest:
     pass
-
 
 class Testing(BaseTest):
 
@@ -51,17 +49,17 @@ class Testing(BaseTest):
         assert User_data.user_selection_shirts in self.driver.find_element(By.XPATH, Locators.assertshri).text
         time.sleep(7)
 
-    # def test_sending_product(self):
-    #     '''
-    #     Scenario: Search a mobile device
-    #     :return:
-    #     '''
-    #     self.driver.find_element(By.NAME, Locators.textfield).send_keys(User_data.user_send_keys)
-    #     time.sleep(4)
-    #     self.driver.find_element(By.XPATH, Locators.searchicon).click()
-    #     time.sleep(4)
-    #     assert User_data.user_send_keys in self.driver.find_element(By.XPATH, Locators.textarea).text
-    #     time.sleep(6)
+    def test_sending_product(self):
+        '''
+        Scenario: Search a mobile device
+        :return:
+        '''
+        self.driver.find_element(By.NAME, Locators.textfield).send_keys(User_data.user_send_keys)
+        time.sleep(4)
+        self.driver.find_element(By.XPATH, Locators.searchicon).click()
+        time.sleep(4)
+        assert User_data.user_send_keys in self.driver.find_element(By.XPATH, Locators.textarea).text
+        time.sleep(6)
 
     def test_add_cart(self):
         self.driver.find_element(By.XPATH, Locators.cat).click()
@@ -76,8 +74,7 @@ class Testing(BaseTest):
         time.sleep(5)
         self.driver.find_element(By.ID, Locators.pin_code).send_keys("500081", Keys.ENTER)
         time.sleep(5)
-        # self.driver.find_element(By.XPATH, Locators.cart_check).click()
-        # time.sleep(5)
+
         cart_sizes = self.driver.find_element(By.XPATH, Locators.cart_elements).text
         if cart_sizes == 'S':
             self.driver.find_element(By.XPATH, Locators.cart_size4).click()
@@ -89,17 +86,6 @@ class Testing(BaseTest):
             self.driver.find_element(By.XPATH, Locators.cart_size3).click()
         else:
             self.driver.find_element(By.XPATH, Locators.cart_size2).click()
-
-
         time.sleep(6)
         self.driver.find_element(By.XPATH, Locators.cart_add_to_cart).click()
         time.sleep(3)
-        # try:
-        #     elem = self.driver.find_element(By.XPATH, Locators.click_btm).click()
-        #     if elem.is_displayed():
-        #         elem.click()
-        #         time.sleep(6)
-        #
-        # except:
-        #     print("No Such Element found!")
-        #
