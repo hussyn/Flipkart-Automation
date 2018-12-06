@@ -1,0 +1,50 @@
+<ns0:test-suite xmlns:ns0="urn:model.allure.qatools.yandex.ru" start="1544072913154" stop="1544073003700">
+  <name>test_flipkart</name>
+  <labels/>
+  <test-cases>
+    <test-case start="1544072913154" status="passed" stop="1544072938354">
+      <description>
+        Login into the application
+        :return:
+        </description>
+      <name>Testing.test_login</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="9520-MainThread"/>
+        <label name="host" value="LAPTOP-7FONJQNR"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1544072938358" status="passed" stop="1544072954932">
+      <description>
+        Scenario: Category of selection from Shirts
+        :return:
+        </description>
+      <name>Testing.test_select_shirt</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="9520-MainThread"/>
+        <label name="host" value="LAPTOP-7FONJQNR"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1544072954935" status="passed" stop="1544073003700">
+      <name>Testing.test_add_cart</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="9520-MainThread"/>
+        <label name="host" value="LAPTOP-7FONJQNR"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+  </test-cases>
+</ns0:test-suite>

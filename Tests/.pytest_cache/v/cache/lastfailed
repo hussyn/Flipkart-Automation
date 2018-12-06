@@ -1,0 +1,5 @@
+{
+  "test_flipkart.py::Testing::()::test_add_product": true,
+  "test_flipkart.py::test_login": true,
+  "test_login.py::test_login": true
+}

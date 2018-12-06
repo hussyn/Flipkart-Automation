@@ -1,0 +1,117 @@
+{
+  "uid" : "173d14d263a32bb8",
+  "name" : "Testing.test_select_shirt",
+  "fullName" : "test_flipkart.Testing.test_select_shirt",
+  "historyId" : "bfaa7f806bf4713108152e5cb357eec",
+  "time" : {
+    "start" : 1544072938358,
+    "stop" : 1544072954932,
+    "duration" : 16574
+  },
+  "description" : "\n        Scenario: Category of selection from Shirts\n        :return:\n        ",
+  "descriptionHtml" : "<pre><code>    Scenario: Category of selection from Shirts\n    :return:\n</code></pre>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-7FONJQNR"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "thread",
+    "value" : "9520-MainThread"
+  }, {
+    "name" : "suite",
+    "value" : "test_flipkart"
+  }, {
+    "name" : "testClass",
+    "value" : "test_flipkart"
+  }, {
+    "name" : "testMethod",
+    "value" : "Testing.test_select_shirt"
+  }, {
+    "name" : "package",
+    "value" : "test_flipkart"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 2,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 8,
+        "unknown" : 0,
+        "total" : 10
+      },
+      "items" : [ {
+        "uid" : "8239e1cb44c5f220",
+        "reportUrl" : "http://localhost:8080/job/AutomationPytest/37/allure/#testresult/8239e1cb44c5f220",
+        "status" : "passed",
+        "time" : {
+          "start" : 1544072838836,
+          "stop" : 1544072855317,
+          "duration" : 16481
+        }
+      }, {
+        "uid" : "e0ecb7a7540f77d8",
+        "reportUrl" : "http://localhost:8080/job/AutomationPytest/35/allure/#testresult/e0ecb7a7540f77d8",
+        "status" : "failed",
+        "statusDetails" : "NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//span[text()=\"Men\"]\"}\n  (Session info: chrome=70.0.3538.110)\n  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64)\n",
+        "time" : {
+          "start" : 1544072450378,
+          "stop" : 1544072450435,
+          "duration" : 57
+        }
+      }, {
+        "uid" : "36169c1114c44be",
+        "reportUrl" : "http://localhost:8080/job/AutomationPytest/34/allure/#testresult/36169c1114c44be",
+        "status" : "passed",
+        "time" : {
+          "start" : 1544072124011,
+          "stop" : 1544072140500,
+          "duration" : 16489
+        }
+      }, {
+        "uid" : "e8fb402253991018",
+        "reportUrl" : "http://localhost:8080/job/AutomationPytest/33/allure/#testresult/e8fb402253991018",
+        "status" : "passed",
+        "time" : {
+          "start" : 1544071975768,
+          "stop" : 1544071992393,
+          "duration" : 16625
+        }
+      }, {
+        "uid" : "48378ad73404d5c",
+        "reportUrl" : "http://localhost:8080/job/AutomationPytest/32/allure/#testresult/48378ad73404d5c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1544071836885,
+          "stop" : 1544071853355,
+          "duration" : 16470
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "173d14d263a32bb8.json",
+  "parameterValues" : [ ]
+}
