@@ -14,7 +14,7 @@ def my_env(request):
         from selenium import webdriver
         driver = webdriver.Chrome(executable_path='D:\\chromedriver.exe')
         request.cls.driver = driver
-        driver.get('https://www.flipkart.com')
+        driver.get(Locators.url)
         driver.maximize_window()
         yield
         driver.close()

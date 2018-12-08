@@ -112,3 +112,5 @@ class Testing(BaseTest):
         self.driver.find_element(By.XPATH, Locators.increasing_the_quanity).click()
         time.sleep(6)
         print(self.driver.find_element(By.XPATH, Locators.amount_price).text)
+
+

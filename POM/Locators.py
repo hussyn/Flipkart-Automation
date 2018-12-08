@@ -1,4 +1,6 @@
 class Locators(object):
+
+    url = 'https://www.flipkart.com'
     number_field = '//input[@class="_2zrpKA"]'
     password_field = '//input[@type="password"]'
     submit_button = '(//span[text()="Login"])[2]'
@@ -49,7 +51,7 @@ class Locators(object):
     save_cart = '//span[text()="Save For Later"]'
     save_casrt_text = "//div[@class='_1qL_13']"
 
-    selection_shirt = " (//a[contains(@title,'Tripr Men Colorblocked Casual Black, White Shirt')])[1]"
+    selection_shirt = "(//a[@class='_2cLu-l'])[1]"
     wish_list = '_35Y7Yo'
 
     name_cou = "//div[text()='KRISHNA KAMASKHI']"
