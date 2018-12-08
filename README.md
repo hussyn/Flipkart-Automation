@@ -3,11 +3,17 @@ Designing Framework from Scratch
 
 Framework:
 
-A.POM 
+A.POM
+->Locators: This file helps us to place all locators
+->User_Data: This file helps us to place all commonly used data which are recently used by the users 
+ 
 
-B.Tests
+B.Tests:
+-> This file is used to create all the test scripts inside this and uses the selenium classes 
+
 
 C.Reports 
+-> A report is been generated and tells us how many scripts are been passed and failed from above directory 
 
 D.Conftest file: This file consists of all necessary setup & teardown methods. Passing the URL through the drive 
 
