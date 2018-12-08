@@ -1,0 +1,116 @@
+{
+  "uid" : "3c9276921b17681d",
+  "name" : "Testing.test_sending_product",
+  "fullName" : "test_flipkart.Testing.test_sending_product",
+  "historyId" : "4e67b0dc39aec7e88c6f1a9e90b73818",
+  "time" : {
+    "start" : 1544277767071,
+    "stop" : 1544277781895,
+    "duration" : 14824
+  },
+  "description" : "\n        Scenario: Search a mobile device\n        :return:\n        ",
+  "descriptionHtml" : "<pre><code>    Scenario: Search a mobile device\n    :return:\n</code></pre>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-7FONJQNR"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "thread",
+    "value" : "13044-MainThread"
+  }, {
+    "name" : "suite",
+    "value" : "test_flipkart"
+  }, {
+    "name" : "testClass",
+    "value" : "test_flipkart"
+  }, {
+    "name" : "testMethod",
+    "value" : "Testing.test_sending_product"
+  }, {
+    "name" : "package",
+    "value" : "test_flipkart"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 1,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 6,
+        "unknown" : 0,
+        "total" : 7
+      },
+      "items" : [ {
+        "uid" : "db1eb7e9608c850c",
+        "reportUrl" : "http://localhost:8080/job/AutomationPytest/44/allure/#testresult/db1eb7e9608c850c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1544277000971,
+          "stop" : 1544277015645,
+          "duration" : 14674
+        }
+      }, {
+        "uid" : "86863dc318978399",
+        "reportUrl" : "http://localhost:8080/job/AutomationPytest/43/allure/#testresult/86863dc318978399",
+        "status" : "passed",
+        "time" : {
+          "start" : 1544276843669,
+          "stop" : 1544276858561,
+          "duration" : 14892
+        }
+      }, {
+        "uid" : "a24ce072c2fa3ee5",
+        "reportUrl" : "http://localhost:8080/job/AutomationPytest/42/allure/#testresult/a24ce072c2fa3ee5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1544276690883,
+          "stop" : 1544276705665,
+          "duration" : 14782
+        }
+      }, {
+        "uid" : "468052ab7ffe5b9b",
+        "reportUrl" : "http://localhost:8080/job/AutomationPytest/41/allure/#testresult/468052ab7ffe5b9b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1544110133894,
+          "stop" : 1544110148576,
+          "duration" : 14682
+        }
+      }, {
+        "uid" : "e9e114514bac0375",
+        "reportUrl" : "http://localhost:8080/job/AutomationPytest/40/allure/#testresult/e9e114514bac0375",
+        "status" : "passed",
+        "time" : {
+          "start" : 1544109535661,
+          "stop" : 1544109550389,
+          "duration" : 14728
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "3c9276921b17681d.json",
+  "parameterValues" : [ ]
+}

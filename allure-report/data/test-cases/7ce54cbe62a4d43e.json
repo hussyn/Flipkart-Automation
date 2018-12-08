@@ -1,0 +1,120 @@
+{
+  "uid" : "7ce54cbe62a4d43e",
+  "name" : "Testing.test_add_cart",
+  "fullName" : "test_flipkart.Testing.test_add_cart",
+  "historyId" : "4cb6989eba73d016752f893c0dc5567b",
+  "time" : {
+    "start" : 1544277781898,
+    "stop" : 1544277829420,
+    "duration" : 47522
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-7FONJQNR"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "thread",
+    "value" : "13044-MainThread"
+  }, {
+    "name" : "suite",
+    "value" : "test_flipkart"
+  }, {
+    "name" : "testClass",
+    "value" : "test_flipkart"
+  }, {
+    "name" : "testMethod",
+    "value" : "Testing.test_add_cart"
+  }, {
+    "name" : "package",
+    "value" : "test_flipkart"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 12,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 5,
+        "unknown" : 0,
+        "total" : 17
+      },
+      "items" : [ {
+        "uid" : "393966f0f972561b",
+        "reportUrl" : "http://localhost:8080/job/AutomationPytest/44/allure/#testresult/393966f0f972561b",
+        "status" : "failed",
+        "statusDetails" : "InvalidSelectorException: Message: invalid selector: Unable to locate an element with the xpath expression  (//a[contains(@title,'Spykar Men's Checkered Casual Blue Shirt')])[1] because of the following error:\nSyntaxError: Failed to execute 'evaluate' on 'Document': The string ' (//a[contains(@title,'Spykar Men's Checkered Casual Blue Shirt')])[1]' is not a valid XPath expression.\n  (Session info: chrome=70.0.3538.110)\n  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64)\n",
+        "time" : {
+          "start" : 1544277015647,
+          "stop" : 1544277036943,
+          "duration" : 21296
+        }
+      }, {
+        "uid" : "f90bfbe4443d5cb4",
+        "reportUrl" : "http://localhost:8080/job/AutomationPytest/43/allure/#testresult/f90bfbe4443d5cb4",
+        "status" : "failed",
+        "statusDetails" : "NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\" (//a[contains(@title,'Tripr Men Colorblocked Casual Black, White Shirt')])[1]\"}\n  (Session info: chrome=70.0.3538.110)\n  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64)\n",
+        "time" : {
+          "start" : 1544276858563,
+          "stop" : 1544276879953,
+          "duration" : 21390
+        }
+      }, {
+        "uid" : "987bfdd2e9879bb0",
+        "reportUrl" : "http://localhost:8080/job/AutomationPytest/42/allure/#testresult/987bfdd2e9879bb0",
+        "status" : "failed",
+        "statusDetails" : "NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\" (//a[contains(@title,'Tripr Men Colorblocked Casual Black, White Shirt')])[1]\"}\n  (Session info: chrome=70.0.3538.110)\n  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64)\n",
+        "time" : {
+          "start" : 1544276705668,
+          "stop" : 1544276727354,
+          "duration" : 21686
+        }
+      }, {
+        "uid" : "fff2d2a6451dd35e",
+        "reportUrl" : "http://localhost:8080/job/AutomationPytest/41/allure/#testresult/fff2d2a6451dd35e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1544110148579,
+          "stop" : 1544110200145,
+          "duration" : 51566
+        }
+      }, {
+        "uid" : "eee765866ff5f50a",
+        "reportUrl" : "http://localhost:8080/job/AutomationPytest/40/allure/#testresult/eee765866ff5f50a",
+        "status" : "failed",
+        "statusDetails" : "NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//button[text()=\"ADD TO CART\"]\"}\n  (Session info: chrome=70.0.3538.110)\n  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64)\n",
+        "time" : {
+          "start" : 1544109550392,
+          "stop" : 1544109596553,
+          "duration" : 46161
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "7ce54cbe62a4d43e.json",
+  "parameterValues" : [ ]
+}

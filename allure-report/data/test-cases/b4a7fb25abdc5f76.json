@@ -1,0 +1,116 @@
+{
+  "uid" : "b4a7fb25abdc5f76",
+  "name" : "Testing.test_login",
+  "fullName" : "test_flipkart.Testing.test_login",
+  "historyId" : "cfc623aa08f989d4e35261b52a9f101c",
+  "time" : {
+    "start" : 1544277725270,
+    "stop" : 1544277750305,
+    "duration" : 25035
+  },
+  "description" : "\n        Login into the application\n        :return:\n        ",
+  "descriptionHtml" : "<pre><code>    Login into the application\n    :return:\n</code></pre>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-7FONJQNR"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "thread",
+    "value" : "13044-MainThread"
+  }, {
+    "name" : "suite",
+    "value" : "test_flipkart"
+  }, {
+    "name" : "testClass",
+    "value" : "test_flipkart"
+  }, {
+    "name" : "testMethod",
+    "value" : "Testing.test_login"
+  }, {
+    "name" : "package",
+    "value" : "test_flipkart"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 3,
+        "broken" : 2,
+        "skipped" : 0,
+        "passed" : 24,
+        "unknown" : 0,
+        "total" : 29
+      },
+      "items" : [ {
+        "uid" : "9037d578d1226777",
+        "reportUrl" : "http://localhost:8080/job/AutomationPytest/44/allure/#testresult/9037d578d1226777",
+        "status" : "passed",
+        "time" : {
+          "start" : 1544276954514,
+          "stop" : 1544276984256,
+          "duration" : 29742
+        }
+      }, {
+        "uid" : "cb2b5f7769bade1a",
+        "reportUrl" : "http://localhost:8080/job/AutomationPytest/43/allure/#testresult/cb2b5f7769bade1a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1544276798973,
+          "stop" : 1544276826664,
+          "duration" : 27691
+        }
+      }, {
+        "uid" : "6d52ff75e4bca3b",
+        "reportUrl" : "http://localhost:8080/job/AutomationPytest/42/allure/#testresult/6d52ff75e4bca3b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1544276642618,
+          "stop" : 1544276674096,
+          "duration" : 31478
+        }
+      }, {
+        "uid" : "ba9f086aed874a03",
+        "reportUrl" : "http://localhost:8080/job/AutomationPytest/41/allure/#testresult/ba9f086aed874a03",
+        "status" : "passed",
+        "time" : {
+          "start" : 1544110092563,
+          "stop" : 1544110117295,
+          "duration" : 24732
+        }
+      }, {
+        "uid" : "10975127a6616b41",
+        "reportUrl" : "http://localhost:8080/job/AutomationPytest/40/allure/#testresult/10975127a6616b41",
+        "status" : "passed",
+        "time" : {
+          "start" : 1544109487671,
+          "stop" : 1544109518892,
+          "duration" : 31221
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "b4a7fb25abdc5f76.json",
+  "parameterValues" : [ ]
+}
