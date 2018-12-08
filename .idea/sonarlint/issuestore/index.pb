@@ -97,3 +97,7 @@ y
 Itarget/allure-results/27173173-251b-4628-83c2-d133e7277712-attachment.txt,8\b\8bee1e84030fc0e74c817f8121ed42c858779221
 x
 Htarget/allure-results/365fbfa6-71f2-4d4e-affc-c74b695fe524-testsuite.xml,c\a\ca7836d560fb3ed7b0d0042e3801a1a9c9f702fe
+9
+	README.md,8\e\8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d
+D
+allure-report/app.js,4\8\489f94ea0be6d874616862bd90602498e325e554

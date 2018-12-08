@@ -3,61 +3,61 @@
   "name" : "behaviors",
   "children" : [ {
     "name" : "Testing.test_login",
-    "uid" : "b4a7fb25abdc5f76",
+    "uid" : "4b7dba246567cf7",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1544277725270,
-      "stop" : 1544277750305,
-      "duration" : 25035
+      "start" : 1544286198410,
+      "stop" : 1544286230954,
+      "duration" : 32544
     },
     "flaky" : false,
     "parameters" : [ ]
   }, {
     "name" : "Testing.test_select_shirt",
-    "uid" : "470ccd05817f1b57",
+    "uid" : "6a6bb1f8d4ef9245",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1544277750310,
-      "stop" : 1544277767068,
-      "duration" : 16758
+      "start" : 1544286231007,
+      "stop" : 1544286247861,
+      "duration" : 16854
     },
     "flaky" : false,
     "parameters" : [ ]
   }, {
     "name" : "Testing.test_sending_product",
-    "uid" : "3c9276921b17681d",
+    "uid" : "3b4762ef14798229",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1544277767071,
-      "stop" : 1544277781895,
-      "duration" : 14824
+      "start" : 1544286247863,
+      "stop" : 1544286262454,
+      "duration" : 14591
     },
     "flaky" : false,
     "parameters" : [ ]
   }, {
     "name" : "Testing.test_add_cart",
-    "uid" : "7ce54cbe62a4d43e",
+    "uid" : "3ca1841951813cdb",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1544277781898,
-      "stop" : 1544277829420,
-      "duration" : 47522
+      "start" : 1544286262456,
+      "stop" : 1544286309325,
+      "duration" : 46869
     },
     "flaky" : false,
     "parameters" : [ ]
   }, {
     "name" : "Testing.test_add_carts",
-    "uid" : "7657895803ace1da",
+    "uid" : "7055df4d915e70f4",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1544277829424,
-      "stop" : 1544277869590,
-      "duration" : 40166
+      "start" : 1544286309330,
+      "stop" : 1544286349552,
+      "duration" : 40222
     },
     "flaky" : false,
     "parameters" : [ ]

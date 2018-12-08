@@ -1,4 +1,11 @@
 [ {
+  "buildOrder" : 45,
+  "reportUrl" : "http://localhost:8080/job/AutomationPytest/45/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "duration" : 144320
+  }
+}, {
   "buildOrder" : 44,
   "reportUrl" : "http://localhost:8080/job/AutomationPytest/44/allure",
   "reportName" : "AllureReport",
@@ -125,13 +132,6 @@
 }, {
   "buildOrder" : 26,
   "reportUrl" : "http://localhost:8080/job/AutomationPytest/26/allure",
-  "reportName" : "AllureReport",
-  "data" : {
-    "duration" : 0
-  }
-}, {
-  "buildOrder" : 25,
-  "reportUrl" : "http://localhost:8080/job/AutomationPytest/25/allure",
   "reportName" : "AllureReport",
   "data" : {
     "duration" : 0
